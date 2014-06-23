@@ -1,0 +1,166 @@
+/* For tablets */
+
+@media all and (max-width: 992px) {
+
+	.navbar li{
+		padding-right: 20px;
+		display: inline;
+	}
+
+	#header{
+		padding-top: 200px;
+	} 
+
+	.polaroid_up{
+		padding-left: 20px;
+	}
+
+	.polaroid_down{
+		padding-left: 20px;
+	}
+
+	.polaroid_picture{
+		padding-left: 43px;
+	}
+
+	.menu_arrow{
+		top: 150px;
+	}
+
+	.flip-container {
+		margin: 30px;
+	}
+
+	.contact_title{
+		margin-bottom: 30px;
+	}
+
+	.da-slide h2{
+		width: auto;
+		top: auto;
+		position: static;
+	}
+
+	.da-img{
+		position: static !important;
+		margin: auto !important;
+		width: auto !important;
+	}
+
+	.da-slide p{
+		width: 70%;
+		margin: auto;
+		top: auto;
+		font-size: medium;
+		padding-left: 25px;
+		padding-right: 25px;
+		position: static;
+	}
+
+	.da-link{
+		position: static !important;
+		margin: auto !important;
+		width: auto !important;
+	}
+
+	.da-img-margin{
+		margin: auto;
+	}
+
+}
+
+/* For small devices */
+
+@media all and (max-width: 767px) {
+
+	.title{
+		font-size: 40px;
+	}
+
+	.subtitle{
+		font-size: 30px;
+	}
+	
+	.quote, #quote_back{
+		display: none;
+	}
+	.about_text{
+		padding-right: 15px;
+		padding-top: 0;
+		font-size: 10px;
+	    font-family: "Trebuchet MS";
+	  	letter-spacing: 2px;
+	  	height: auto;
+	}
+
+	.picture{
+		padding-top: 50px;
+		padding-left: 10px;
+	}
+	
+	.navbar{
+		padding-right: 10px;
+	}
+
+	.enjoy_list, .enjoy_list_freq{ 
+		font-size: 20px;
+	}
+
+	.flip-container, .front, .back {
+		width: 128;
+		height: 128;
+	}
+	.contact_logo{
+		width: 128;
+		height: 128;
+	}
+
+	.flip-container {
+		display: inline-block;
+		margin: 30px;
+		cursor: pointer;
+	}
+
+	.contact_title{
+		font-size: 25px;
+		margin-bottom: 50px;
+	}
+
+	.da-slide h2{
+		width: auto;
+		top: auto;
+		font-size: 35px;
+		position: static;
+		margin-top: 50px; 
+	}
+
+	.da-slide p{
+		width: auto;
+		top: auto;
+		font-size: medium;
+		padding-left: 25px;
+		padding-right: 25px;
+		position: static;
+	}
+
+	.da-img-margin{
+		margin: auto;
+	}
+
+	.da-img{
+		position: static !important;
+		margin: auto !important;
+		width: auto !important;
+	}
+
+	.da-link{
+		position: static !important;
+		margin: auto !important;
+		width: auto !important;
+	}
+
+	#current_project{
+		width: 100%;
+	}
+
+}
