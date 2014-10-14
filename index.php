@@ -100,6 +100,7 @@
 						<ul class="enjoy_list">
 							<li>Être bénévole à la SPA</li>
 							<li>Faire de l'équitation</li>
+							<li>Pratiquer le Laser Game</li>
 
 						</ul>
 

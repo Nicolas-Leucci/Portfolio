@@ -87,7 +87,7 @@
 
 					<br />
 					<p class="about_title">
-						I am a 19 years old&nbsp;<span style="color: white; background:#EC6454;">&nbsp;IT student&nbsp;</span>.
+						I am a 20 years old&nbsp;<span style="color: white; background:#EC6454;">&nbsp;IT student&nbsp;</span>.
 					</p>
 					<br /><br />
 					<p class="about_subtext">
@@ -100,7 +100,7 @@
 						<ul class="enjoy_list">
 							<li>SPCA volunteer <span class="enjoy_list_freq">monthly</span></li>
 							<li>Riding <span class="enjoy_list_freq">weekly</span></li>
-
+                            <li>Killing people during a Laser Game<span class="enjoy_list_freq">weekly</span></li>
 						</ul>
 
 					</p>
