@@ -1,3 +1,17 @@
+<?php
+function Age($date_naissance)
+{
+    $arr1 = explode('/', $date_naissance);
+    $arr2 = explode('/', date('d/m/Y'));
+
+    if(($arr1[1] < $arr2[1]) || (($arr1[1] == $arr2[1]) && ($arr1[0] <= $arr2[0])))
+    return $arr2[2] - $arr1[2];
+
+    return $arr2[2] - $arr1[2] - 1;
+}
+$mon_age = Age('16/04/1994');
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -87,7 +101,7 @@
 
 					<br />
 					<p class="about_title">
-						J'ai 20 ans et je suis un <span style="color: white; background:#EC6454;">&nbsp;technicien supérieur en informatique&nbsp;</span>.
+						J'ai <?php echo $mon_age; ?> ans et je suis un <span style="color: white; background:#EC6454;">&nbsp;technicien supérieur en informatique&nbsp;</span>.
 					</p>
 					<br /><br />
 					<p class="about_subtext">
